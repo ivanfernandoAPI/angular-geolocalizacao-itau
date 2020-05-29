@@ -1,0 +1,11 @@
+<h1 mat-dialog-title style="font-size: small; font-weight: bold;">Número da Agencia </h1>
+<div mat-dialog-content>
+  <p>{{data.numeroAgencia}}</p>
+</div>
+<h1 mat-dialog-title style="font-size: small; font-weight: bold;">Horário </h1>
+<div mat-dialog-content>
+  <p>{{data.horario}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="this.dialogRef.close();"  cdkFocusInitial>Ok</button>
+</div> 
